@@ -38,11 +38,11 @@ Les exigences ont été **déduites du comportement visible du site** : il n'exi
 
 Avec `standard_user`, chaque produit affiche sa propre image :
 
-![standard_user](captures/BUG001_standard_user_images_correctes.png)
+![standard_user]BUG001_standard_user_images_correctes.png)
 
 Avec `problem_user`, les 6 produits affichent la même photo (un chien avec une balle) :
 
-![problem_user](captures/BUG001_problem_user_meme_image.png)
+![problem_user]BUG001_problem_user_meme_image.png)
 
 ### BUG002 — Ajout et retrait d'articles : seule la première action fonctionne (`problem_user`)
 
@@ -52,7 +52,7 @@ Seul le premier clic sur « Add to cart » ou « Remove » est pris en compte. *
 
 Le prénom est saisi, mais le champ du nom reste vide :
 
-![Last Name vide](captures/BUG003_champ_last_name_vide.png)
+![Last Name vide]BUG003_champ_last_name_vide.png)
 
 ### BUG004 — Délai d'environ 8 secondes à la connexion (`performance_glitch_user`)
 
@@ -63,18 +63,18 @@ Durée mesurée manuellement : pas de capture.
 - **OBS01** : aucune limite de longueur sur le prénom (100 et 300 caractères acceptés).
 - **OBS02** : le code postal accepte des lettres.
 
-![Code postal ABCDE accepté](captures/TC026_code_postal_lettres_accepte.png)
+![Code postal ABCDE accepté]TC026_code_postal_lettres_accepte.png)
 
 ## Exemples de preuves
 
 | Cas | Capture |
 |---|---|
-| TC002 — compte verrouillé | ![TC002](captures/TC002_compte_verrouille.png) |
-| TC008 — majuscules refusées | ![TC008](captures/TC008_majuscules_refuse.png) |
-| TC010 — accès direct sans connexion | ![TC010](captures/TC010_acces_direct_sans_connexion.png) |
-| TC021 — code postal requis | ![TC021](captures/TC021_code_postal_requis.png) |
-| TC027 — totaux corrects (89,97 $ + 7,20 $ = 97,17 $) | ![TC027](captures/TC027_totaux_recapitulatif.png) |
-| TC030 — retour à la connexion après déconnexion | ![TC030](captures/TC030_page_connexion_apres_logout.png) |
+| TC002 — compte verrouillé | ![TC002]TC002_compte_verrouille.png) |
+| TC008 — majuscules refusées | ![TC008]TC008_majuscules_refuse.png) |
+| TC010 — accès direct sans connexion | ![TC010]TC010_acces_direct_sans_connexion.png) |
+| TC021 — code postal requis | ![TC021]TC021_code_postal_requis.png) |
+| TC027 — totaux corrects (89,97 $ + 7,20 $ = 97,17 $) | ![TC027]TC027_totaux_recapitulatif.png) |
+| TC030 — retour à la connexion après déconnexion | ![TC030]TC030_page_connexion_apres_logout.png) |
 
 ## Liste des cas de test
 
