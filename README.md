@@ -63,7 +63,7 @@ Durée mesurée manuellement : pas de capture.
 - **OBS01** : aucune limite de longueur sur le prénom (100 et 300 caractères acceptés).
 - **OBS02** : le code postal accepte des lettres.
 
-![Code postal ABCDE accepté]TC026_code_postal_lettres_accepte.png)
+![Code postal ABCDE accepté](TC026_code_postal_lettres_accepte.png)
 
 ## Exemples de preuves
 
