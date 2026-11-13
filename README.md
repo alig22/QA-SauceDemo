@@ -38,11 +38,11 @@ Les exigences ont été **déduites du comportement visible du site** : il n'exi
 
 Avec `standard_user`, chaque produit affiche sa propre image :
 
-![standard_user]BUG001_standard_user_images_correctes.png)
+![standard_user](BUG001_standard_user_images_correctes.png)
 
 Avec `problem_user`, les 6 produits affichent la même photo (un chien avec une balle) :
 
-![problem_user]BUG001_problem_user_meme_image.png)
+![problem_user](BUG001_problem_user_meme_image.png)
 
 ### BUG002 — Ajout et retrait d'articles : seule la première action fonctionne (`problem_user`)
 
@@ -52,7 +52,7 @@ Seul le premier clic sur « Add to cart » ou « Remove » est pris en compte. *
 
 Le prénom est saisi, mais le champ du nom reste vide :
 
-![Last Name vide]BUG003_champ_last_name_vide.png)
+![Last Name vide](BUG003_champ_last_name_vide.png)
 
 ### BUG004 — Délai d'environ 8 secondes à la connexion (`performance_glitch_user`)
 
